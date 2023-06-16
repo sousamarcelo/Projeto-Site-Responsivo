@@ -106,6 +106,18 @@
 		#formulario{
 			background-color: #dcdcdc;
 		}
+		input{
+			border: solid;
+			padding: 5px;
+			border-radius: 5px;
+			font-size: 1.8rem;
+		}
+		#mensagem{
+			border: solid;
+			padding: 5px;
+			border-radius: 5px;
+			font-size: 1.8rem;
+		}
 		
 	</style>
 </head>
@@ -192,26 +204,26 @@
 			<label for="name">Name</label>
 			<br>
 			<input type="text" id="nome" name="name" placeholder="Digite o seu nome">
-			<br>
+			<br><br>
 
 			<label for="telefone">Telefone</label>
 			<br>
-			<input type="tel" id="tel" name="tel" placeholder="Digite seu cel com ddd">
-			<br>
+			<input type="tel" id="tel" name="tel" placeholder="Digite seu cel com DDD">
+			<br><br>
 
 			<input type="checkbox" id="opcoes" name="html" value="html">
 			<label for="html">Quero saber mais sobre HTML e CSS</label>
-			<br>
+			<br><br>
 			<input type="checkbox" id="opcoes" name="php" value="php">
 			<label for="php">Quero saber mais sobre HTML, CSS e PHP</label>
-			<br>
+			<br><br>
 			<input type="checkbox" id="opcoes" name="javascript" value="javascript">
 			<label for="javascript">Quero saber mais sobre HTML, CSS e Javascript</label>
+			<br><br>
+			<label for="mensagem">Deixe sua mensagem (opcional):</label>
+			<br><br>
+			<textarea id="mensagem" rows="5" cols="25"></textarea>
 			<br>
-			<label for="mensagem">Deixe sua mensagem (opcional)</label>
-			<br>
-			<textarea id="mensagem" rows="5" cols="50"></textarea>
-
 			
 		</form>
 		
