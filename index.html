@@ -92,9 +92,16 @@
 		}
 		.grid{
 			display: grid;
-			grid-template-columns: 300px 300px;
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));/*responsividade do grid*/			
+			grid-gap: 1px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.grid div{
 			background-color: #fff;
-			grid-gap: 30px;
+			text-align: center;
+			padding: 2px;
 		}
 		
 	</style>
