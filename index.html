@@ -103,6 +103,9 @@
 			text-align: center;
 			padding: 2px;
 		}
+		#formulario{
+			background-color: #dcdcdc;
+		}
 		
 	</style>
 </head>
@@ -186,11 +189,31 @@
 
 		<form action="#" method="get" target="_blank">
 
-			<input type="text" name="name" placeholder="Digite o seu nome">
+			<label for="name">Name</label>
+			<br>
+			<input type="text" id="nome" name="name" placeholder="Digite o seu nome">
+			<br>
+
+			<label for="telefone">Telefone</label>
+			<br>
+			<input type="tel" id="tel" name="tel" placeholder="Digite seu cel com ddd">
+			<br>
+
+			<input type="checkbox" id="opcoes" name="html" value="html">
+			<label for="html">Quero saber mais sobre HTML e CSS</label>
+			<br>
+			<input type="checkbox" id="opcoes" name="php" value="php">
+			<label for="php">Quero saber mais sobre HTML, CSS e PHP</label>
+			<br>
+			<input type="checkbox" id="opcoes" name="javascript" value="javascript">
+			<label for="javascript">Quero saber mais sobre HTML, CSS e Javascript</label>
+			<br>
+
 			
 		</form>
 		
 	</section>
+	<br>
 	<footer>
 		<h3>TECTREINAMENTOS INFORMÁTICA</h3>
 		<h4>Desenvolvimento Web</h4>
